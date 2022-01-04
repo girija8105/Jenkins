@@ -6,6 +6,7 @@ public class TC_003Test {
 	@Test
 	public void Account() {
 		Reporter.log("run TestScript 3",true);
+		System.out.println(System.getProperty("BROWSERNAME"));
 	}
 
 }
